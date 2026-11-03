@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BackRestaurante/BackRestaurante.csproj" />
+  <Project Path="FrontRestaurante/FrontRestaurante.csproj" />
+  <Project Path="ModeloRestaurante/ModeloRestaurante.csproj" />
+</Solution>
