@@ -8,10 +8,12 @@ namespace BackRestaurante.Data
         {
             public DataContext(DbContextOptions<DataContext> options) : base(options)
             {
-            }
 
-            public DbSet<Chef> Chef { get; set; }
         }
+
+        public DbSet<Chef> Chefs { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+    }
 
  }
 
